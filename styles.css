@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*,::before,::after{
+    box-sizing: border-box;
+}
+
+body{
+    background-image:linear-gradient(
+        to top left,
+        #CD7F32,
+        #DAA06D
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family:sans-serif;
+    font-size: 62.5%;
+    margin:0;
+}
+
+.main-content{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.content{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:2.5rem;
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+    font-size: 1.8rem;
+    gap: 2.5rem;
+}
+
+h1{
+    color:white;
+    font-size:2.5rem;
+    text-align:center;
+    text-shadow:2px 2px red;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2{
+    margin: 0;
+    text-align:center;
+    color:white;
+    text-transform:uppercase;
+}
+
+@font-face{
+    font-family: 'CursedTimerUlil-Aznm';
+    src: url('CursedTimerUlil-Aznm.ttf') format('truetype');
+}
+
+.score-container{
+    background-color:black;
+    width : 10rem;
+    height: 7rem;
+    margin: auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;    
+}
+
+.home-score,.guest-score{
+    text-align:center;
+    font-family: 'CursedTimerUlil-Aznm', Arial, sans-serif;
+    color:red;
+    margin:0;
+    font-size:4.5rem;
+}
+
+.buttons{
+    margin:auto;
+}
+
+.add1, .add2, .add3, .reset-button{
+    font-size: 1.2rem;
+    background-color:transparent;
+    border-radius : 10%;
+    color:brown;
+    border:2px solid white;
+    padding: 1rem;
+}
+
+.add1:hover,.add2:hover,.add3:hover{
+    background-color:rgba(165, 42, 42,0.5);
+    color:white;
+    cursor:pointer;
+}
+
+.reset-button:hover{
+    background-color: red;
+    color:white;
+    cursor:pointer;
+}
+
+
+@media (max-width : 1230px){
+    .content{
+        flex-direction:column;
+    }
+    .main-content{
+        height:100%;
+    }
+
+}
+
+
