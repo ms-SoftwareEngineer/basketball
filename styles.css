@@ -108,6 +108,7 @@ h2{
         flex-direction:column;
     }
     .main-content{
+        justify-content: flex-start; /* Adjust this value if needed */
         padding-bottom: 2.5rem;
     }
     body{
