@@ -22,7 +22,7 @@ body{
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    height:100vh;
+    min-height:100vh;
 }
 
 .content{
@@ -108,8 +108,8 @@ h2{
         flex-direction:column;
     }
     .main-content{
-        height:100%;
         padding-bottom: 2.5rem;
+        background-attachment: scroll;
     }
 
 }
