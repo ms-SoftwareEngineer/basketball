@@ -109,6 +109,8 @@ h2{
     }
     .main-content{
         padding-bottom: 2.5rem;
+    }
+    body{
         background-attachment: scroll;
     }
 
